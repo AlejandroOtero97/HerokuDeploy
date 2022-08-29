@@ -41,13 +41,12 @@ const mongooseConfig = {
         }
     }
 }
-const mongoUrl = process.env.MONGOURL;
-const mongoOptions = JSON.parse(process.env.MONGOOPTIONS);
+
 
 const mongoStore = {
     store: MongoStore.create({
-        mongoUrl: mongoUrl,
-        mongoOptions: mongoOptions
+        mongoUrl: 'mongodb+srv://Alejandro:otero@coderhouse.av1btb7.mongodb.net/test',
+        mongoOptions: {"useNewUrlParser":true,"useUnifiedTopology":true}
     }),
     secret: 'shhhhhhhhhhhhhhhhhhhh',
     resave: true,
