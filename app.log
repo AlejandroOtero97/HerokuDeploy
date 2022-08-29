@@ -162,3 +162,4 @@
 [2022-08-29T07:54:54.816] [INFO] default - GET /
 [2022-08-29T07:54:55.052] [INFO] default - GET /api/getInfo
 [2022-08-29T07:54:55.494] [INFO] default - GET /api/login
+[2022-08-29T08:13:22.078] [INFO] default - GET /login

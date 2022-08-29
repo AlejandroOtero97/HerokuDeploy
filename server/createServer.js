@@ -1,5 +1,7 @@
+const PORT = process.env.PORT || 8080
+
 export default function createServer(httpServer, port) {
-    httpServer.listen(port, () => {
-        console.log(`Escuchando en el puerto ${port} - PID WORKER ${process.pid}`)
+    httpServer.listen(PORT, () => {
+        console.log(`Escuchando en el puerto ${PORT} - PID WORKER ${process.pid}`)
     })
 }
