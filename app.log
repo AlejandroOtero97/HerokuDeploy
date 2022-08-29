@@ -156,3 +156,9 @@
 [2022-08-29T06:42:02.809] [INFO] default - GET /api/getInfo
 [2022-08-29T06:42:04.346] [INFO] default - GET /api/randoms/45
 [2022-08-29T06:42:47.214] [INFO] default - GET /api/login
+[2022-08-29T07:54:50.610] [INFO] default - GET /login
+[2022-08-29T07:54:54.311] [INFO] default - POST /api/login
+[2022-08-29T07:54:54.775] [INFO] default - GET /api/successLogin
+[2022-08-29T07:54:54.816] [INFO] default - GET /
+[2022-08-29T07:54:55.052] [INFO] default - GET /api/getInfo
+[2022-08-29T07:54:55.494] [INFO] default - GET /api/login

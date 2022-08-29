@@ -56,7 +56,8 @@ const mongoStore = {
     }
 }
 
-
+const mongoUrl = 'mongodb+srv://Alejandro:otero@coderhouse.av1btb7.mongodb.net/test';
+const mongoOptions = {"useNewUrlParser":true,"useUnifiedTopology":true};
 
 
 export { mongooseConfig, mongoStore, mongoUrl, mongoOptions };
